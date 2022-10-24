@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form>
+    <form action="{{ url_for('addrec') }}" method="POST">
         <h1  align="center">SIGN UP</h1>
         <div class="menu" align="center">
             <div>
@@ -18,45 +18,45 @@
                     <!----- Name ---------------------------------------------------------->
                    <tr>
                    <td>NAME</td>
-                   <td><input type="text" name="Name" placeholder="name" maxlength="30"/>
+                   <td><input type="text" name="NAME" placeholder="name" maxlength="30"/>
                    </td>
                    </tr>
                     <!----- Email id ---------------------------------------------------------->
                    <tr>
-                   <td>EMAIL ID</td>
-                   <td><input type="text" name="Email id" placeholder="Email id" maxlength="30"/>
+                   <td>EMAILID</td>
+                   <td><input type="text" name="EMAIL" placeholder="Email id" maxlength="30"/>
                    </td>
                    </tr>
                     <!----- Mobile Number ---------------------------------------------------------->
                    <tr>
                    <td>MOBILE NUMBER</td>
                    <td>
-                   <input type="text" name="Mobile_Number" placeholder="Mobile no" maxlength="10" />
+                   <input type="text" name="MOBILE" placeholder="Mobile no" maxlength="10" />
                    </td>
                    <!----- City ---------------------------------------------------------->
                    <tr>
                    <td>CITY</td>
-                   <td><input type="text" name="City" placeholder="City" maxlength="30" />
+                   <td><input type="text" name="CITY" placeholder="City" maxlength="30" />
                    </td>
                    </tr>
                    <!----- State ---------------------------------------------------------->
                    <tr>
                    <td>STATE</td>
-                   <td><input type="text" name="State" placeholder="State" maxlength="30" />
+                   <td><input type="text" name="STATE" placeholder="State" maxlength="30" />
                    </td>
                    </tr>
                         
                    <!----- Country ---------------------------------------------------------->
                    <tr>
                    <td>COUNTRY</td>
-                   <td><input type="text" name="Country" placeholder="Country" />
+                   <td><input type="text" name="COUNTRY" placeholder="Country" />
                    </td>
                    </tr>
 
                    <!----- password ---------------------------------------------------------->
                    <tr>
                     <td>PASSWORD</td>
-                    <td><input type="text" name="password" placeholder="password" />
+                    <td><input type="text" name="PASSWORD" placeholder="password" />
                     </td>
                     </tr>
                    
@@ -74,4 +74,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
-
