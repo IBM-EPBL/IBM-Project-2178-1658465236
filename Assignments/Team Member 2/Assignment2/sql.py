@@ -1,8 +1,8 @@
 import sqlite3
 
-conn = sqlite3.connect('students.db')
-print('opened database successfully')
+conn = sqlite3.connect('Users.db')
+print("Opened database successfully")
 
-conn.execute('CREATE TABLE students (name TEXT, email TEXT, mobile TEXT, city TEXT, state TEXT, country TEXT, password TEXT)')
-print("Table Created Successfully")
-conn.close()  
+conn.execute('CREATE TABLE Users (Name TEXT, EMail TEXT, Mobile TEXT, City TEXT, State TEXT, Country TEXT, Password TEXT)')
+print("Table created successfully")
+conn.close()
