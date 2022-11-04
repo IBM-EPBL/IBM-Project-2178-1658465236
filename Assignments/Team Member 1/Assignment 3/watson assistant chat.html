@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<title>Watson Chat</title>
+<body style="background-color:royalblue;">
+<div align="center">
+<h1>Watson Assistant Chat</h1>
+<p>Get some info you need😇</p>
+<img src="D:\Flask examples\images\s5.jpg" width="500" height="400">
+</div>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "09f0b9b9-e6a2-4e65-92f1-6317695c7b84", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "ce5bb2ff-6988-4cfb-af7d-7c213ca650b9", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
