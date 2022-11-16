@@ -1,5 +1,4 @@
-# using SendGrid's Python Library
-# https://github.com/sendgrid/sendgrid-python
+
 import os
 from dotenv import load_dotenv
 
