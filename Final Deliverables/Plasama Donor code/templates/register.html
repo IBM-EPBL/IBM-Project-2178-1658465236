@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plasmoid</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body >
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Plasmoid</h2>
+            </div>
+            
+            <div class="menu">
+                <ul>
+                    
+                    <li><a href="/about">ABOUT </a></li> 
+                    <li><a href="/contact">CONTACT</a></li>
+                    <li><a href="#">VACCINE</a></li>
+                    <li><a href="#">DONOR</a></li>
+                    
+
+                   <li><select name="Infect"> 
+                        <option value="select" selected>Select COVID infection status</option>
+                        <option value="infected">Infected</option>
+                        <option value="uninfected">Uninfected</option>
+                        </select></li>
+                         <li><select name="blood">
+                            <option value="select" selected>Choose your blood group</option>
+                            <option value="O Positive">O Positive</option>
+                            <option value="A Positive">A Positive</option>
+                            <option value="B Positive">B Positive</option>
+                            <option value="AB Positive">AB Positive</option>
+                            <option value="O Negative">O Negative</option>
+                            <option value="A Negative">A Negative</option>
+                            <option value="B Negative">B Negative</option>
+                            <option value="AB Negative">AB Negative</option>
+                         </select></li>
+                         
+                </ul>
+            </div> 
+            <!-- <div class="search"> 
+                <input class="srch" type="search" name="" placeholder="Type to text"> 
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+             -->
+             
+            <div class="form" >
+                <h2>Create account</h2>
+                <input type="Username" name="Username" placeholder="Enter Username here">
+                <input type="Email'id" name="Emailid" placeholder="Enter Email here">
+                <input type="Password" name="Password" placeholder="Enter Password here">
+
+
+
+                <input type="Phone" name="Phone" placeholder="Enter phone here">
+                
+                               <button class="btnn"><a href="/dashboard">Sign Up</a></button>
+                <p class="link">Already have an account?<br>
+                <a href="signin">Sign in </a>here</a></p>
+                <!--<p class="liw">log in with</p>
+                <div class="icons"> 
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+
+                    
+
+                    
+                </div>   
+                
+                 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>-->
+                 
+                
+
+        </div>
+        
+    </div>
+    <!-- <div> 
+        <h1 class="paragrp">Donate Plasma And Save Life</h1>
+    </div> -->
+
+          
+   
+
+    
+</body>
+</html>
